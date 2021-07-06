@@ -1,16 +1,23 @@
-# Ask users for a number
-get_number = int(input("Choose a number? "))
+# count down to 1 from 10
+for i in range (10, 0-1 , -1):
+    print(i)
 
-# Multiply the number by 5
-times_five = get_number * 5
+greeting = "hello world"
 
-answer = "{} times five is equal to " \
-         "{}" .format(get_number, times_five)
+for letter in greeting:
+    print(letter)
 
-print(answer)
+options = ["unicorn" , "horse" , "zebra" , "donkey"]
 
+for i in options:
+    print(i)
 
+# get code until an exit code is entered
+name = ""
+while name.lower() != "xxx":
+    name = input("Who are you? ")
+    print(name)
 
-
-
+print()
+print("We are done!")
 
