@@ -12,10 +12,10 @@ while show_instructions.lower() != "xxx":
         print("program continues")
 
     elif show_instructions == "no" or show_instructions == "n":
-        print("program continues")
+        print("display instructions")
 
     elif show_instructions == "n":
-        print("program continues")
+        print("display instructions")
 
     # if they say no, output 'display instructions'
     else:
