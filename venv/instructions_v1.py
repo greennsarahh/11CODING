@@ -24,12 +24,12 @@ def instruction():
 
 
 # main routine goes here
-show_instructions = yes_no("Have you played the game before?")
-print("You chose {}" .format(show_instructions))
+played_before = yes_no("Have you played the game before?")
+print("You chose {}" .format(played_before))
 print()
-having_fun = yes_no("Are you having fun?")
-print("You said {} to having fun" .format(having_fun))
 
-if show_instructions == "yes" :
+
+if played_before == "no":
     instruction()
 
+print("Program continues")
